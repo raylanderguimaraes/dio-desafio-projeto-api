@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 
 import org.springframework.stereotype.Service;
 
+import com.raylander.guimaraes.Application;
 import com.raylander.guimaraes.domain.model.User;
 import com.raylander.guimaraes.domain.repository.UserRepository;
 import com.raylander.guimaraes.service.UserService;
@@ -30,5 +31,7 @@ public class UserServiceImpl implements UserService {
 		}
 		return userRepository.save(userToCreate);
 	}
+	
+	
 	
 }

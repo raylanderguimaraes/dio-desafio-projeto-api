@@ -31,6 +31,4 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<>("Unexpected server error, see logs.", HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 	
-	
-	
 }
